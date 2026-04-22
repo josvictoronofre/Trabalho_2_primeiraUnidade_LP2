@@ -32,6 +32,7 @@ public class Main {
                     String nomeCC = scanner.nextLine();
                     System.out.print("Saldo Inicial: ");
                     double saldoCC = scanner.nextDouble();
+                    scanner.nextLine();
                     contas.add(new ContaCorrente(nomeCC, saldoCC));
                     System.out.println("Conta Corrente criada!");
                     break;
@@ -40,6 +41,7 @@ public class Main {
                     String nomeCP = scanner.nextLine();
                     System.out.print("Saldo Inicial: ");
                     double saldoCP = scanner.nextDouble();
+                    scanner.nextLine();
                     contas.add(new ContaPoupanca(nomeCP, saldoCP));
                     System.out.println("Conta Poupança criada!");
                     break;
